@@ -1,7 +1,7 @@
 /* Estilos Generales */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     padding: 40px;
@@ -14,7 +14,7 @@ section {
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgb(255, 255, 255);
 }
 
 h1 {
@@ -41,18 +41,18 @@ label {
 input[type="text"] {
     padding: 12px;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius:108px;
     font-size: 1rem;
     transition: border-color 0.3s;
 }
 
 input[type="text"]:focus {
     outline: none;
-    border-color: #3498db;
+    border-color: #0062ff;
 }
 
 button[type="submit"] {
-    background-color: #3498db;
+    background-color: #ff7300;
     color: white;
     border: none;
     padding: 12px;
@@ -63,7 +63,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #2980b9;
+    background-color: #793700;
 }
 
 /* Listado de Comentarios */

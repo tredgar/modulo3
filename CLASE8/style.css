@@ -83,7 +83,7 @@ button[type="submit"]:hover {
 
 .comment-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.05);
 }
 
 .comment-card h3 {

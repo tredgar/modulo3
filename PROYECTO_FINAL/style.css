@@ -1,0 +1,123 @@
+/* Reset básico y configuración de fuentes */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #03080e;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    /* Centra la sección en la pantalla */
+}
+
+/* Contenedores principales */
+div {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1,
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+/* Etiquetas e Inputs del Formulario */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+/* Efecto al hacer clic/focus en los campos de texto */
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #0B192C;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Textarea resizable solo verticalmente */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Botón de Enviar */
+button {
+    background-color: #0B192C;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    /* Botón de ancho completo */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0B192C;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+/* Lista de Comentarios */
+#comments_list {
+    list-style: none;
+    /* Elimina las viñetas */
+}
+
+/* Estilo para cada comentario individual agregado mediante JavaScript */
+#comments_list li {
+    background-color: #f9f9f9;
+    border-left: 4px solid #0B192C;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 0 5px 5px 0;
+    word-wrap: break-word;
+}
+
+/* Estilo para el nombre del autor dentro de la lista (opcional para tu JS) */
+#comments_list li strong {
+    display: block;
+    color: #2c3e50;
+    margin-bottom: 4px;
+}

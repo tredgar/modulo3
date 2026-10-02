@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+    <div>
+        <p style="background-color: #0B192C">Esto es un parrafo</p>
+        <p style="background-color: #1E56A0">Esto es un parrafo</p>
+        <p style="background-color: #00D2C5">Esto es un parrafo</p>
+         <p style="background-color: #00dfff">Esto es un parrafo</p>
+         <p style="background-color: #00abff">Esto es un parrafo</p>
+        <h1>Deja un Comentario</h1>
+       
+            <label for="comment_name">Nombre:</label>
+            <input type="text" id="comment_name" name="nombre" required><br><br>
+
+            <label for="comment_input">Comentario:</label><br>
+            <textarea id="comment_input" name="comentario" rows="4" cols="50" required></textarea><br><br>
+
+            <button id="save_comment">Enviar Comentario</button>
+
+    </div>
+    <div id="comments_section">
+        <h2>Comentarios Recientes</h2>
+        <ul id="comments_list">
+            <!-- Los comentarios se agregarán aquí dinámicamente -->
+             
+        </ul>
+     <script src="script.js"></script>
+</body>
+</html>
